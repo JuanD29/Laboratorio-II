@@ -19,7 +19,7 @@ public class Negocio {
     private ArrayList<Producto> inventario;
     private ArrayList<Cliente> clientes;
 
-    public Negocio(String nombre, Admin administrador, ArrayList<Vendedor> vendedores, ArrayList<CajaRegistradora> CajasRegistradoras, ArrayList<Producto> inventario, ArrayList<Cliente> clientes) {
+    public Negocio(String nombre, Admin administrador, ArrayList<Vendedor> vendedores, ArrayList<CajaRegistradora> CajasRegistradoras, ArrayList<Producto> inventario) {
         this.nombre = nombre;
         this.administrador = administrador;
         this.vendedores = vendedores;
